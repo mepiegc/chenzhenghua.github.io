@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>碟调网-登录</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/Land.css"/>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />
+	</head>
+	<body>
+		<div class="dtw_layout">
+		      <!--登陆页面-->
+			<header class="dtw_Land_box clearfix" >
+				<a href="index.html" class="dtw_Land_Return"><i class="icon_sssss"></i></a>
+				登录
+				<a href="register.html" class="dtw_Land_register">注册</a>				
+			</header>
+			<!--账号登陆--> 
+			<div class="dtw_Land">
+				<ul class="clearfix"> 
+					<li class="land">账号登陆</li>
+					<li>手机快捷登陆</li>
+				</ul>
+			</div>
+			<!--账号-->
+			<div class="dtw_Land_zhanghao">
+				<form ng-submit="search()">
+					<ul>
+						<li>
+						  <span class="icon_i_search"></span>
+						  <input type="text" placeholder="手机/邮箱/碟调网账号" ng-model="word"/>
+						</li>
+						<li>
+						  <span class="icon_i_search-1"></span>
+						  <input type="text" placeholder="登录密码" ng-model="word" style="border-top: none;"/>
+						</li>
+					</ul>
+				<div class="dtw_Land_denglu">
+			 	    <input type="submit"  value="登录" class="dtw_Land_inpt" style="color: white; font-size: 30px; background-color: inherit;"/>											
+			     </div>
+				</form>			
+			</div>
+			
+			<div class="dtw_Land_wjmima clearfix">
+					<a href="#" class="dtw_Land_wjmima-a"><h4>忘记密码?</h4></a>
+					
+			</div>
+			<div class="dtw_Land_wjmima ">
+					<span>—— 其他登录方式 ——</span>
+					
+			</div>
+			
+			
+			 <div class="dtw_nav">
+		    	<a href="#asww">
+		    		<i class="icon_t_nav "></i>
+		    		<span>QQ</span>
+		    	</a>
+		    	<a href="#dianshi">
+		    		<i class="icon_t_nav-2"></i>
+		    		<span >新浪</span>
+		    	</a>
+		    	<a href="#">
+		    		<i class="icon_t_nav-3"></i>
+		    		<span>微信</span>
+		    	</a>
+		    	<a href="#">
+		    		<i class="icon_t_nav-4"></i>
+		    		<span class="dtw_nav_ziti">支付宝</span>
+		    	</a>
+		    	<a href="#">
+		    		<i class="icon_t_nav-5"></i>
+		    		<span>淘宝</span>
+		    	</a>
+		    	
+		    </div>
+		</div>
+		<script src="angular/angular.js" type="text/javascript" charset="utf-8"></script>
+		<script src="assets/js/Land.js" type="text/javascript" charset="utf-8"></script>
+	</body>
+</html>

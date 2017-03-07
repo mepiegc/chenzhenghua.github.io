@@ -1,0 +1,102 @@
+body{
+	background: #f4f4f4;
+}
+.dtw_layout{
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+}
+/*登陆页面*/
+.dtw_Land_box{
+	width: 100%;
+	height: 50px;
+	background-color: #272733;
+	text-align: center;
+	color: white;
+	font-size: 20px;
+	line-height: 50px;
+	position:relative
+}
+.dtw_Land_box .dtw_Land_Return{	
+	display: inline-block;			
+	float: left;
+	
+}
+.dtw_Land_box .dtw_Land_Return .icon_sssss{
+	width: 100%;
+	height: 100%;
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+	position: absolute;
+	left: 10px;
+	top: 12px;
+	background-position: -16px -20px;
+}
+.dtw_Land_box .dtw_Land_register{
+	display: inline-block;
+	float: right;
+	color: #1f87cb;
+	font-size: 15px;
+	position: absolute;
+	right: 10px;
+	
+}
+/*注册资料开始*/
+.dtw_Land_zhanghao{
+	width: 100%;
+	/*background-color: white;*/
+	font-size: 18px;
+	margin-top: 20px;
+	text-indent: 3px;
+}
+.dtw_Land_zhanghao form{
+	width: 95%;
+	margin: 0 auto;
+}
+.dtw_Land_zhanghao form ul {
+	width: 100%;
+	
+}
+.dtw_Land_zhanghao form ul li{
+	width: 100%;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #ccc;
+	
+}
+.dtw_Land_zhanghao form ul li span:nth-child(1){
+	display: inline-block;
+	width: 80px;
+	height: 100%;
+}
+.dtw_Land_zhanghao form ul li span:nth-child(4){
+	float: right;
+}
+.dtw_Land_zhanghao form ul li i{
+	float: right;
+}
+.dtw_Land_zhanghao form ul li input{
+	width: 75%;
+	height: 80%;
+}
+
+
+.dtw_Land_denglu{
+	width: 100%;
+	margin: 0 auto;
+	background-color: #2fb3ff;
+	border-radius: 5px;
+	margin-top: 20px;
+	text-align: center;
+	color: white;
+	padding: 8px 0;
+}
+.dtw_Land_denglu.dtw_Land_inpt{
+	font-size: 30px;
+	color: white;
+}
+
+

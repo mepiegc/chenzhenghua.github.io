@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<title>碟调网手机版</title>
+		<link rel="stylesheet" type="text/css" href="assets/css/common.css"/>
+		<link rel="stylesheet" type="text/css" href="assets/css/index.css"/>
+		<link rel="shortcut icon" href="favicon.ico" />
+		<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0" />	
+	</head>
+	<body ng-app="moviecatApp" ng-controller="moviecatController">
+		<div class="dtw_layout">
+			<!--搜索栏开始-->
+			<header class="dtw_header">
+				<div class="dtw_header_box">
+					<a href="index.html" class="icon_logo"></a>
+					<form ng-submit="search()">
+						<span class="icon_search"></span>
+						<input type="text" placeholder="全网搜索" ng-model="word"/>
+					</form>
+					<a href="Land.html" class="login ">
+						<span class="icon_List"></span>
+						<span class="dtw_List">登录</span>
+					</a>			
+				</div>
+				<!--头部导航栏开始-->
+				<nav class="dtw_header_nav clearfix">
+					<div class="dtw_cate_left">
+					<ul > 
+						<li class="active"><a href="#/home_page">首页</a></li>
+						<li><a href="#/in_theaters">热门电影</a></li>
+						<li><a href="#/coming_soon">即将上映</a></li>
+						<li><a href="#/top250">排名电影</a></li>
+						<li><a href="#">综艺</a></li>
+						<li><a href="#">微电影</a></li>
+						<li><a href="#">游戏</a></li>
+						<li><a href="#">科技</a></li>						
+					</ul>						
+					</div>
+					
+				</nav>
+			</header>
+		    <!--轮播图-->
+		    <div class="banner">
+				<ul class="clearfix">
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg6.jpg"/>
+						</a>
+						
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg1.jpg"/>
+							
+						</a>
+						<span class="dtw_ul_span">愤怒的小鸟电影</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg2.jpg"/>
+						</a>
+						<span class="dtw_ul_span">武神赵子龙</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg3.jpg"/>
+						</a>
+						<span class="dtw_ul_span">澳门风云3</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg4.jpg"/>
+						</a>
+						<span class="dtw_ul_span">山海经之赤影传说</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg5.jpg"/>
+						</a>
+						<span class="dtw_ul_span">爱情麻辣烫之情定终身</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg6.jpg"/>
+							
+						</a>
+						<span class="dtw_ul_span">十五年等待候鸟</span>
+					</li>
+					<li>
+						<a href="#">
+							<img src="assets/img/dtwImg1.jpg"/>
+						</a>
+					</li>
+				</ul>
+				<div class="dtw_ul">
+					
+					<ul>
+						<li class="now"></li>						
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+						<li></li>
+					</ul>
+				</div>
+			</div>
+		    
+		    <!--电影区域-->
+		    <div class="dtw_filmArea" ng-view>
+		    	
+		    </div>
+		    <!--版权-->
+		    <div class="dtw_copyright">
+		    	<p>最新更新-影视排行-留言反馈-全景统计</p>
+		    	<p>本网站为非赢利性站点，本网站所有内容均来源于互联网相关站点自动搜索采集信息，相关链接已经注明来源。</p>
+		    </div>		    	   		    
+		</div>										
+		<script src="angular/angular.js"></script>
+		<script src="angular-route/angular-route.js"></script>
+		<script src="server/jsonp.js"></script>
+		<script src="server/autoactive.js"></script>
+		<script src="movieType/controller.js"></script>
+		<script src="home_page/controller.js"></script>
+		<script src="detail/controller.js"></script>
+		<script src="app.js"></script>
+		<script src="assets/js/common.js"></script>
+		<script src="assets/js/index.js"></script>
+	</body>
+</html>
