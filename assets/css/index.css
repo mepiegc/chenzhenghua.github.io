@@ -1,0 +1,303 @@
+body{
+	background: #e3e3e3;
+}
+.dtw_layout{
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	position: relative;
+}
+/*搜索栏开始*/
+.dtw_header{
+	width: 100%;
+	height: 50px;
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 10;
+}
+.dtw_header_box{
+	width: 100%;
+	height: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	background-color: #1f87cb;
+	position: relative;
+}
+.dtw_header_box .icon_logo{
+	width: 105px;
+	height: 100%;
+	background-image: url(../img/headerLogo.png);
+	background-repeat: no-repeat;
+	background-size: 105px 50px;
+	background-position: center center;
+	position: absolute;	
+}
+.dtw_header_box form{
+	width: 100%;
+	padding: 0 50px 0 105px;
+}
+.dtw_header_box form input{
+	width: 100%;
+	height: 35px;
+	border-radius: 10px;
+	padding-left: 25px;
+	margin-top: 8px;
+}
+.dtw_header_box .icon_search{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-position: -61px 0px;
+	top: 15px;
+	left: 108px;
+}
+.dtw_header_box .login{
+	width: 50px;
+	height: 100%;
+	line-height: 50px;	
+	position: absolute;	
+	top: 0px;
+	right: 0;
+	
+}
+.dtw_header_box .login .icon_List{
+	width: 20px;
+	height: 20px;
+	position: absolute;
+	background-position: -40px 0px;
+	top: 8px;
+	left: 14px;
+	
+}
+.dtw_header_box .login .dtw_List{
+    position: absolute;
+    top: 10px;
+    left: 12px;
+    color: white;	
+}
+/*搜索栏结束*/
+/*头部导航栏开始*/
+.dtw_header_nav{
+	width: 100%;
+	min-width: 320px;
+	max-width: 640px;
+	margin: 0 auto;
+	background-color: #222222;		
+	overflow: hidden;	
+}
+.dtw_cate_left{
+   width: 100%;
+}
+.dtw_cate_left ul{
+	width: 200%;
+}
+.dtw_cate_left ul li{
+	float: left;
+	width: 60px;	
+	padding-top: 5px;
+	padding-bottom: 5px;	
+	text-align: center;	
+	/*margin-bottom: 1px;*/
+}
+.dtw_cate_left ul li.active{
+	background-color: #1f87cb;
+}
+/*广告栏开始*/
+.banner{
+	width: 100%;	
+	position: relative;
+	overflow: hidden;
+	margin-top: 79px;
+	
+}
+.banner ul {	
+	width: 1000%;
+	-webkit-transform:translateX(-10%) ;
+            transform:translateX(-10%) ;
+            z-index: 5;
+}
+.banner ul li {
+	width: 10%;
+	float: left;
+	
+}
+.banner ul li .dtw_ul_span{
+	color: white;
+	position: absolute;	
+	bottom: 0px;
+	margin-left: 15px;
+	font-size: 16px;
+	font-family: "微软雅黑";
+	
+	
+}
+.banner ul li a{
+	display: block;
+	width: 100%;
+}
+.banner ul li img{
+	width: 100%;
+	display: block;
+}
+
+.banner .dtw_ul{
+	width: 100%;
+	height: 30px;
+	position: absolute;
+	bottom: 0px;
+	background-color: rgba(0, 0, 0, 0.1) ;
+}
+.banner .dtw_ul ul{
+	width: 42px;
+	height: 6px;
+	position: absolute;
+	bottom: 4px;
+	right: 5px;
+	margin-left: -59px;
+}
+.banner .dtw_ul ul li{
+	width: 4px;
+	height: 4px;
+	border-radius: 3px;
+	border: 1px solid #fff;
+	float: left;
+	margin-left: 2px;
+}
+.banner .dtw_ul ul li.now{
+    background:#fff;
+}
+
+
+/*广告栏结束*/
+/*导航栏开始*/
+.dtw_nav{
+	width: 100%;
+	height: 100px;
+	background-color: white;
+	position: relative;
+}
+.dtw_nav a{
+	display: inline-block;
+	width: 19%;
+	height: 100%;
+	color: black;
+	text-align: center;
+	position: relative;
+}
+.dtw_nav a span {
+	position: absolute;
+	left: 20px;
+	bottom: 20px;
+}
+.dtw_nav .dtw_nav_ziti{
+	position: absolute;
+	left: 13px;
+}
+.dtw_nav a i{
+	width: 45px;
+	height: 45px;
+	position: absolute;
+	top: 12px;
+	left: 12px;
+}
+.dtw_nav a .icon_t_nav-2{	
+	background-position: -45px 0px;		
+}
+.dtw_nav a .icon_t_nav-3{	
+	background-position: -90px 0px;		
+}
+.dtw_nav a .icon_t_nav-4{	
+	background-position: -135px 0px;		
+}
+.dtw_nav a .icon_t_nav-2{	
+	background-position: -180px 0px;		
+}
+/*导航栏结束*/
+/*电影区域开始*/
+.dtw_filmArea_ziti{
+	width: 100%;
+	background-color: #e9e9e9;
+	border: 1px solid #d9d9d9;
+	margin-top: 15px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	position: relative;
+}
+.dtw_filmArea_ziti img{
+	width: 23px;
+	height: 25px;
+	margin-left: 5px;
+}
+
+.dtw_filmArea_ziti .dtw_filmArea_a h3{
+	display: inline-block;	
+	position: absolute;
+	top: 2px;
+	line-height: 35px;
+	margin-left: 5px;
+	color: #222222;
+}
+.dtw_filmArea_ziti  u a{
+	position: absolute;
+	right: 8px;
+	line-height: 35px;
+	top: 2px;
+	font-size: 15px;
+	color: #4486cb;
+}
+/*电影区域开始*/
+.dtw_list {
+	background-color: white;	
+}
+.dtw_list ul {
+	margin: 0 auto;
+	width: 100%;
+	overflow: hidden;
+}
+.dtw_list ul li {
+	width: 45%;
+	float: left;
+	margin: 8px 0px 8px 12px;
+}
+.dtw_list ul li a {
+    display: inline-block;
+}
+.dtw_list ul li a img {
+    width: 100%;
+    height: 250px;
+}
+
+
+/*电影区域结束*/
+/*版权开始*/
+.dtw_copyright{
+	margin-top: 15px;
+	text-align: center;
+}
+/*版权结束*/
+.paging {
+    text-align: center;
+}
+
+.paging .prev,
+.paging .next {
+    border: none;
+    border-radius: 4px;
+    background: #2aabd2;
+    width: 100px;
+    height: 40px;
+    color: #fff;
+    font-size: 14px;
+    cursor: pointer;
+}
+.disable {
+    cursor: unset !important;
+    background: #ccc !important;
+}
+
+
+
+ 
